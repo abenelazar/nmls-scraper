@@ -1,0 +1,29 @@
+{
+  "name": "nmls-puppeteer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel *.js -d dist",
+    "start": "npm run build && node dist/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@infosimples/node_two_captcha": "^1.1.0",
+    "firebase": "^9.8.3",
+    "html-table-to-json": "^1.0.0",
+    "puppeteer": "^14.4.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.17.10",
+    "@babel/core": "^7.18.5",
+    "@babel/node": "^7.18.5",
+    "@babel/plugin-proposal-class-properties": "^7.17.12",
+    "@babel/plugin-proposal-object-rest-spread": "^7.18.0",
+    "@babel/preset-env": "^7.18.2",
+    "nodemon": "^2.0.16",
+    "rimraf": "^3.0.2"
+  }
+}
